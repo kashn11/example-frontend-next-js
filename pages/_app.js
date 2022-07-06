@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
             fbq('init', ${fbq.FB_PIXEL_ID});
           `,
 				}}
-			/>
+			></Script>
 			<Component {...pageProps} />
 		</>
 	)
